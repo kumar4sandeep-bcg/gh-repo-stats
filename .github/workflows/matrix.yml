@@ -6,7 +6,7 @@
 on:
   workflow_dispatch:
   push:
-    branches-ignore: main
+    branches-ignore: patch-1
 
 # This is where we specify what jobs we want to run. 
 # os: Specifies what OS we would like to test.
