@@ -171,7 +171,7 @@ GITHUB_TOKEN=${GITHUB_TOKEN:-}         # Default to environment variable
 ###########
 # GLOBALS #
 ###########
-SLEEP='300'                                   # Number of seconds to sleep if out of API calls
+SLEEP='3000'                                   # Number of seconds to sleep if out of API calls
 SLEEP_RETRY_COUNT='15'                        # Number of times to try to sleep before giving up
 SLEEP_COUNTER='0'                             # Counter of how many times we have gone to sleep
 EXISTING_FILE='0'                             # Check if a file already exists
